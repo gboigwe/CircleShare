@@ -3,10 +3,10 @@
 import { getDefaultConfig } from '@rainbow-me/rainbowkit';
 import { defineChain } from 'viem';
 
-// Define Morph Holesky Testnet
-export const morphHolesky = defineChain({
-  id: 2810,
-  name: 'Morph Holesky Testnet',
+// Define Base Sepolia Testnet
+export const baseSepolia = defineChain({
+  id: 84532,
+  name: 'Base Sepolia',
   nativeCurrency: {
     decimals: 18,
     name: 'Ethereum',
@@ -15,23 +15,23 @@ export const morphHolesky = defineChain({
   rpcUrls: {
     default: {
       http: [
-        process.env.NEXT_PUBLIC_MORPH_RPC_URL || 'https://rpc-quicknode-holesky.morphl2.io',
-        'https://rpc-holesky.morphl2.io',
+        process.env.NEXT_PUBLIC_BASE_RPC_URL || 'https://sepolia.base.org',
+        'https://base-sepolia.blockpi.network/v1/rpc/public',
       ],
     },
   },
   blockExplorers: {
     default: {
-      name: 'Morph Holesky Explorer',
-      url: 'https://explorer-holesky.morphl2.io',
+      name: 'BaseScan',
+      url: 'https://sepolia.basescan.org',
     },
   },
   testnet: true,
 });
 
 export const config = getDefaultConfig({
-  appName: 'KindNest',
+  appName: 'CircleShare',
   projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || 'your-project-id',
-  chains: [morphHolesky],
+  chains: [baseSepolia],
   ssr: true,
 });

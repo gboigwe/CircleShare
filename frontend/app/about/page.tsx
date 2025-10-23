@@ -150,12 +150,12 @@ export default function About() {
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
                   CircleShare was born from the understanding that sharing works best when it flows in circles, not lines.
                   Traditional apps create linear debts. We saw people struggling with awkward debt conversations,
-                  forgotten contributions, and the guilt that "owing" creates between loved ones.
+                  forgotten contributions, and the guilt that &quot;owing&quot; creates between loved ones.
                 </p>
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
                   Built for the Stacks Vibe Coding Hackathon 2025, CircleShare transforms expense sharing into circles of sharing.
                   Every contribution, every act of support, every moment of sharing is recorded with the security of
-                  Clarity smart contracts on Bitcoin's Layer 2 and the warmth of human connection.
+                  Clarity smart contracts on Bitcoin&apos;s Layer 2 and the warmth of human connection.
                 </p>
                 <p className="text-white/80 text-lg leading-relaxed">
                   Our mission: Make expense sharing feel like what it truly is—sharing with each other.
@@ -239,8 +239,8 @@ export default function About() {
             <Award className="h-20 w-20 text-yellow-400 mx-auto mb-6" />
             <h2 className="text-4xl font-bold text-white mb-6">Stacks Vibe Coding Hackathon 2025</h2>
             <p className="text-xl text-white/80 mb-8 max-w-3xl mx-auto">
-              CircleShare showcases how Clarity smart contracts on Bitcoin's Layer 2 can transform expense sharing into circles of sharing.
-              By leveraging Stacks' security and Bitcoin's trust, we're making peer-to-peer support feel as natural and continuous as sharing with loved ones.
+              CircleShare showcases how Clarity smart contracts on Bitcoin&apos;s Layer 2 can transform expense sharing into circles of sharing.
+              By leveraging Stacks&apos; security and Bitcoin&apos;s trust, we&apos;re making peer-to-peer support feel as natural and continuous as sharing with loved ones.
             </p>
             <div className="grid sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
               <div className="bg-white/10 rounded-2xl p-4">
@@ -266,7 +266,7 @@ export default function About() {
             <h2 className="text-4xl font-bold text-white mb-8">The Future of Sharing</h2>
             <p className="text-xl text-white/80 leading-relaxed mb-8">
               We believe the future of expense sharing is circular, transparent, and accessible to everyone.
-              CircleShare is just the beginning. We're building towards a world where sharing flows as easily
+              CircleShare is just the beginning. We&apos;re building towards a world where sharing flows as easily
               as caring, where trust is built into every interaction via Clarity contracts, and where support knows no boundaries.
             </p>
             <div className="grid sm:grid-cols-3 gap-6 text-center">

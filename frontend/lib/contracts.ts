@@ -5,9 +5,9 @@ export const CONTRACTS = {
 } as const;
 
 export const NETWORK_INFO = {
-  chainId: 2810,
-  name: 'morphHolesky',
-  rpcUrl: 'https://rpc-holesky.morphl2.io',
+  chainId: 84532,
+  name: 'baseSepolia',
+  rpcUrl: 'https://sepolia.base.org',
 } as const;
 
 // Contract ABIs - Updated from deployed contracts

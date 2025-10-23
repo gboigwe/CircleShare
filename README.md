@@ -46,10 +46,10 @@ CircleShare embodies four core personality pillars that guide every design decis
 ## 🏗️ Architecture
 
 ### Smart Contracts
-- **Clarity Smart Contracts**: Built on Stacks Bitcoin L2
-- **expensess-factori**: Creates and manages circles of sharing
-- **groups-treasuri**: Handles contribution tracking, sharing, and settlements
-- Built with Clarity for decidability, safety, and readability on Bitcoin L2
+- **Solidity Smart Contracts**: Built on Base L2 (Ethereum Layer 2)
+- **ExpenseFactory.sol**: Creates and manages circles of sharing
+- **GroupTreasury.sol**: Handles contribution tracking, sharing, and settlements
+- Built with Solidity ^0.8.20 and OpenZeppelin contracts for maximum security on Base L2
 
 ### Frontend
 - **Next.js 15** with React 19 for modern, fast interactions
@@ -64,8 +64,8 @@ CircleShare embodies four core personality pillars that guide every design decis
 
 ### Prerequisites
 - Node.js 18+ and npm
-- Leather Wallet, Xverse, or compatible Stacks wallet
-- STX on Stacks Testnet (get from [faucet](https://explorer.hiro.so/sandbox/faucet?chain=testnet))
+- MetaMask or compatible Web3 wallet
+- ETH on Base Sepolia Testnet (get from [Base faucet](https://www.coinbase.com/faucets/base-ethereum-sepolia-faucet))
 
 ### Installation
 
@@ -93,12 +93,12 @@ CircleShare embodies four core personality pillars that guide every design decis
    ```bash
    cd contracts
    cp .env.example .env
-   # Edit .env with your Stacks credentials
+   # Edit .env with your private key
    ```
 
-2. **Deploy to Stacks Testnet**
+2. **Deploy to Base Sepolia**
    ```bash
-   npm run deploy:stacks
+   npm run deploy:base
    ```
 
 3. **Verify contracts (optional)**
@@ -130,8 +130,8 @@ CircleShare embodies four core personality pillars that guide every design decis
 
 ### 1. **Connect Your Wallet** 💜
 - Open CircleShare in your browser
-- Click "Connect Wallet" to connect your Stacks wallet
-- Ensure you're on Stacks Testnet
+- Click "Connect Wallet" to connect your Web3 wallet (MetaMask recommended)
+- Ensure you're on Base Sepolia Testnet
 - *Your wallet is now ready to start sharing in circles*
 
 ### 2. **Create Your Circle** ⭕
@@ -143,7 +143,7 @@ CircleShare embodies four core personality pillars that guide every design decis
 ### 3. **Invite to Circle** 🤗
 - Open your circle
 - Click "Invite to Circle" to add members
-- Enter their Stacks address and a nickname
+- Enter their Ethereum address and a nickname
 - *Only circle keepers can invite new members - maintaining circle integrity*
 
 ### 4. **Share Contribution** 💜
@@ -166,25 +166,25 @@ CircleShare embodies four core personality pillars that guide every design decis
 ## 🔧 Configuration
 
 ### Network Configuration
-- **Network**: Stacks Testnet
-- **Chain**: Bitcoin Layer 2
-- **RPC URL**: https://api.testnet.hiro.so
-- **Explorer**: https://explorer.hiro.so/?chain=testnet
-- **Faucet**: https://explorer.hiro.so/sandbox/faucet?chain=testnet
+- **Network**: Base Sepolia Testnet
+- **Chain ID**: 84532
+- **RPC URL**: https://sepolia.base.org
+- **Explorer**: https://sepolia.basescan.org
+- **Faucet**: https://www.coinbase.com/faucets/base-ethereum-sepolia-faucet
 
 ### Environment Variables
 
 #### Contracts (.env)
 ```bash
-STACKS_PRIVATE_KEY=... # Your deployment wallet private key
-STACKS_NETWORK=testnet
-CONTRACT_ADDRESS=... # Deployed contract address
+PRIVATE_KEY=0x... # Your deployment wallet private key
+BASE_RPC_URL=https://sepolia.base.org
+BASESCAN_API_KEY=... # For contract verification
 ```
 
 #### Frontend (.env.local)
 ```bash
-NEXT_PUBLIC_STACKS_NETWORK=testnet
-NEXT_PUBLIC_CONTRACT_ADDRESS=... # Deployed factory address
+NEXT_PUBLIC_BASE_RPC_URL=https://sepolia.base.org
+NEXT_PUBLIC_EXPENSE_FACTORY_ADDRESS=0x... # Deployed factory address
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=... # Your WalletConnect project ID
 ```
 
@@ -209,14 +209,14 @@ npm run lint # ESLint
 
 ```
 circleshare/
-├── contracts/                     # Clarity smart contracts for trust & transparency
+├── contracts/                     # Solidity smart contracts for trust & transparency
 │   ├── contracts/
-│   │   ├── groups-treasuri.clar  # Core sharing & contribution logic
-│   │   └── expensess-factori.clar # Circle creation & management
+│   │   ├── GroupTreasury.sol      # Core sharing & contribution logic
+│   │   └── ExpenseFactory.sol     # Circle creation & management
 │   ├── scripts/
-│   │   └── deploy.js              # Stacks blockchain deployment
+│   │   └── deploy.js              # Base blockchain deployment
 │   ├── test/                      # Comprehensive security tests
-│   └── Clarinet.toml              # Stacks L2 configuration
+│   └── hardhat.config.js          # Base L2 configuration
 ├── frontend/                      # CircleShare web application
 │   ├── app/                       # Next.js app router (pages & layouts)
 │   │   ├── page.tsx               # Landing page with hero section
@@ -234,17 +234,17 @@ circleshare/
 
 ## 🔐 Security Considerations
 
-- Clarity smart contracts are decidable and safer than Solidity
+- Contracts use OpenZeppelin's security modules (ReentrancyGuard, Ownable)
 - Only circle keepers can add members
 - Share settlements require exact payment amounts
-- All transactions are transparent on Stacks blockchain
-- Secured by Bitcoin's Layer 2
+- All transactions are transparent on Base blockchain
+- Secured by Base L2 (Ethereum Layer 2)
 
 ## 🌐 Deployment
 
 ### Smart Contracts
-Contracts are deployed on Stacks Testnet:
-- Explorer: https://explorer.hiro.so/?chain=testnet
+Contracts are deployed on Base Sepolia Testnet:
+- Explorer: https://sepolia.basescan.org
 
 ### Frontend
 The frontend can be deployed to any static hosting service:
@@ -272,9 +272,9 @@ This project is licensed under the MIT License.
 
 ## 🏆 Hackathon Submission
 
-This project was built for the **Stacks Vibe Coding Hackathon 2025** with a focus on:
+This project was built for hackathons with a focus on:
 - Circular reciprocity model for expense sharing
-- Clarity smart contracts on Bitcoin L2
+- Solidity smart contracts on Base L2 (Ethereum Layer 2)
 - Modern Web3 UX with warm, human-centered design
 - Real-world utility with fair-as-a-circle approach
 
@@ -286,8 +286,8 @@ This project was built for the **Stacks Vibe Coding Hackathon 2025** with a focu
 
 ## 📞 Support
 
-- **Stacks Documentation**: https://docs.stacks.co/
-- **Clarity Documentation**: https://docs.stacks.co/clarity/
+- **Base Documentation**: https://docs.base.org/
+- **Base Sepolia Faucet**: https://www.coinbase.com/faucets/base-ethereum-sepolia-faucet
 - **Issues**: Create an issue in this repository
 
 ## ⭕ Growing CircleShare
@@ -315,10 +315,10 @@ CircleShare was born from the understanding that **sharing works best when it fl
 
 Traditional apps create linear debts. We saw people struggling with awkward debt conversations, forgotten contributions, and the guilt that "owing" creates between loved ones. CircleShare transforms expense sharing into circles of sharing where support flows continuously.
 
-Built with conviction for the **Stacks ecosystem** and belief that blockchain's greatest power lies in making peer-to-peer support feel as natural and continuous as sharing with loved ones.
+Built on **Base L2** (Ethereum Layer 2) for low fees, fast transactions, and the security of Ethereum. Our conviction: blockchain's greatest power lies in making peer-to-peer support feel as natural and continuous as sharing with loved ones.
 
 *Where sharing comes full circle.* ⭕✨
 
 ---
 
-**Made with 💜 for the Stacks ecosystem - CircleShare: Where sharing flows in circles**
+**Made with 💜 on Base L2 - CircleShare: Where sharing flows in circles**

@@ -20,7 +20,7 @@ export function NetworkTest() {
     const testRpcDirectly = async () => {
       setRpcTest({ status: 'loading' });
       try {
-        const response = await fetch('https://rpc-quicknode-holesky.morphl2.io', {
+        const response = await fetch('https://sepolia.base.org', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

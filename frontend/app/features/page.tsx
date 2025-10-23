@@ -48,7 +48,7 @@ export default function Features() {
     {
       icon: Shield,
       title: "Blockchain Security",
-      description: "All transactions are secured by smart contracts on Morph L2 blockchain with immutable records",
+      description: "All transactions are secured by smart contracts on Base L2 blockchain with immutable records",
       details: [
         "Smart contract secured transactions",
         "Immutable expense records",

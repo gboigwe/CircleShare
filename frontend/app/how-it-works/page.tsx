@@ -41,11 +41,11 @@ export default function HowItWorks() {
       color: "from-blue-500 to-indigo-500",
       details: [
         "Install MetaMask or any Web3 wallet",
-        "Connect to the KindNest app",
-        "Switch to Morph Holesky testnet",
+        "Connect to the CircleShare app",
+        "Switch to Base Sepolia testnet",
         "Your wallet is now ready!"
       ],
-      tips: "Make sure you have some ETH on Morph L2 for transaction fees"
+      tips: "Make sure you have some ETH on Base L2 for transaction fees"
     },
     {
       step: "02", 
@@ -144,15 +144,15 @@ export default function HowItWorks() {
 
   const faqs = [
     {
-      question: "Do I need cryptocurrency to use SplitWise?",
-      answer: "Yes, you need a small amount of ETH on Morph L2 for transaction fees. The fees are extremely low thanks to Layer 2 technology."
+      question: "Do I need cryptocurrency to use CircleShare?",
+      answer: "Yes, you need a small amount of ETH on Base L2 for transaction fees. The fees are extremely low thanks to Layer 2 technology."
     },
     {
       question: "What happens if someone doesn't pay their debt?",
       answer: "All debts are recorded permanently on the blockchain. While we can't force payment, the transparent record creates accountability."
     },
     {
-      question: "Can I use SplitWise without a Web3 wallet?",
+      question: "Can I use CircleShare without a Web3 wallet?",
       answer: "No, a Web3 wallet is required as it's your identity and payment method on the blockchain. MetaMask is the most popular option."
     },
     {

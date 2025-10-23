@@ -298,7 +298,7 @@ function GroupCard({
             </div>
           ) : isMember ? (
             <div className="text-teal-600 font-medium">
-              🤝 You're part of this circle
+              🤝 You&apos;re part of this circle
             </div>
           ) : (
             <div className="text-gray-500 font-medium">
