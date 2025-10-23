@@ -1,77 +1,78 @@
-# 🌱 KindNest - Support that feels human
+# ⭕ CircleShare - Sharing flows in circles
 
-*Softly structured. Human, hopeful, and clear. KindNest speaks like a kind, grounded friend who gets things done.*
+*Fair as a circle. Warm as sharing.* CircleShare transforms expense sharing into circles of sharing where support flows continuously.
 
-A warm, community-focused platform where support flows as naturally as love. Built on Morph L2 blockchain with transparency, trust, and human connection at its heart.
+A decentralized platform where sharing works best when it flows in circles, not lines. Built on Stacks Bitcoin L2 with Clarity smart contracts for transparency, security, and permanence.
 
-**Together is easier.** ✨
+**Where sharing comes full circle.** ✨
 
-Built for the **Morph Consumer Buildathon 2025** 🏆
+Built for the **Stacks Vibe Coding Hackathon 2025** 🏆
 
 ## 🌟 Features
 
-### 💚 **Human-Centered Support**
-- **Create Your Nest**: Start intimate circles of care with the people who matter
-- **Share Costs, Share Care**: Transparent contribution tracking where every gesture counts
-- **Contribute Kindly**: Support flows naturally when it's needed most—no pressure, just care
-- **Together is Easier**: Fair sharing that feels fair, looks fair, and *is* fair
-- **Support Anywhere**: Distance doesn't matter when hearts connect across the blockchain
-- **Warm & Reassuring**: Every interaction designed with empathy, clarity, and genuine care
+### ⭕ **Circle-Centered Sharing**
+- **Create Your Circle**: Start circles of sharing with friends, family, or community—everyone equal, no hierarchy
+- **Share Contribution**: Transparent contribution tracking where everyone gives when they can, everyone receives when they need
+- **Flow Share Forward**: Support flows naturally through your circle—complete the circle when you can
+- **Fair as a Circle**: Circular reciprocity model—no linear debt tracking, only circle balance
+- **Support Anywhere**: Distance doesn't matter. Your circle connects hearts across the world
+- **Warm & Balanced**: Every interaction designed with fairness and compassion
 
-### 🎨 **Beautiful, Thoughtful Design**
-- **Emerald & Teal Gradients**: Colors that evoke growth, healing, and community
-- **Gentle Animations**: Floating effects, warm glows, and interactions that feel alive
-- **Human-Centered Loading**: "Finding your nests..." instead of cold progress bars  
+### 🎨 **Beautiful, Flowing Design**
+- **Teal & Purple Gradients**: Flow + sharing—colors that evoke circular flow and human connection
+- **Flowing Animations**: Ripple effects, circular rotations, and interactions that feel continuous
+- **Human-Centered Loading**: "Finding your circles..." instead of cold progress bars
 - **Glass-Effect UI**: Backdrop blur and soft transparency for a modern, welcoming feel
-- **Heart-Based Feedback**: Pulsing hearts replace generic spinners throughout the app
+- **Circle-Based Feedback**: Flowing circles and hearts throughout the app
 
-## 💝 **KindNest Brand Philosophy**
+## 💜 **CircleShare Brand Philosophy**
 
-KindNest embodies four core personality pillars that guide every design decision:
+CircleShare embodies four core personality pillars that guide every design decision:
 
-### 🌿 **Warm & Reassuring**
-*"You're not alone in this."* Every interaction feels like a gentle hand on your shoulder, offering comfort and understanding when money matters feel overwhelming.
+### 🌊 **Warm & Flowing**
+*"Sharing flows in circles."* Support moves naturally through the community, like water finding its course. Warm, continuous, unstoppable.
 
-### 🌟 **Clear & Honest** 
-*"Here's exactly what's happening."* We believe transparency builds trust. No hidden fees, no confusing jargon—just clear, honest information presented with care.
+### 🔵 **Clear & Balanced**
+*"Fair as a circle."* A circle is perfectly balanced—everyone equal distance from center. We believe transparency and fairness build trust.
 
 ### 💪 **Empowering & Inclusive**
-*"You've got this, and we've got you."* KindNest gives you the tools and confidence to manage shared expenses while ensuring everyone feels valued and included.
+*"Everyone belongs in the circle."* Circles have no outsiders. CircleShare ensures everyone feels valued, included, and empowered to participate.
 
 ### 🎯 **Humble but Purposeful**
-*"Quietly getting things done."* We solve real problems without fanfare, focusing on what matters: making support feel natural and stress-free.
+*"Quietly keeping sharing flowing."* We solve real problems without fanfare, focusing on what matters: making sharing flow naturally through communities.
 
-**Design Language**: Soft emerald and teal gradients evoke growth and healing. Gentle animations make interactions feel alive and responsive. Every loading state, button hover, and transition is crafted to feel distinctly human.
+**Design Language**: Teal + purple gradients represent the flow of sharing and human connection. Circular animations make interactions feel continuous. Every loading state, button hover, and transition is crafted to embody circular reciprocity.
 
 ## 🏗️ Architecture
 
 ### Smart Contracts
-- **ExpenseFactory.sol**: Creates and manages support nests
-- **GroupTreasury.sol**: Handles contribution tracking, sharing, and settlements
-- Built with Solidity ^0.8.20 and OpenZeppelin contracts for maximum security
+- **Clarity Smart Contracts**: Built on Stacks Bitcoin L2
+- **expensess-factori**: Creates and manages circles of sharing
+- **groups-treasuri**: Handles contribution tracking, sharing, and settlements
+- Built with Clarity for decidability, safety, and readability on Bitcoin L2
 
 ### Frontend
 - **Next.js 15** with React 19 for modern, fast interactions
-- **TypeScript** for type safety and developer confidence  
-- **Tailwind CSS** with custom KindNest design system
-- **Custom RainbowKit Theme** seamlessly integrated with emerald/teal branding
+- **TypeScript** for type safety and developer confidence
+- **Tailwind CSS** with custom CircleShare design system
+- **Custom RainbowKit Theme** seamlessly integrated with teal/purple branding
 - **wagmi v2** and **RainbowKit** for smooth Web3 experiences
-- **Viem** for reliable Ethereum interactions
-- **Human-Centered Animations** with CSS transforms and keyframes
+- **Viem** for reliable blockchain interactions
+- **Circular Flow Animations** with CSS transforms and keyframes
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js 18+ and npm
-- MetaMask or compatible wallet
-- ETH on Morph Holesky Testnet (get from [faucet](https://bridge-holesky.morphl2.io/faucet))
+- Leather Wallet, Xverse, or compatible Stacks wallet
+- STX on Stacks Testnet (get from [faucet](https://explorer.hiro.so/sandbox/faucet?chain=testnet))
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd splitwise3-mvp
+   cd circleshare
    ```
 
 2. **Install contract dependencies**
@@ -92,17 +93,17 @@ KindNest embodies four core personality pillars that guide every design decision
    ```bash
    cd contracts
    cp .env.example .env
-   # Edit .env with your private key
+   # Edit .env with your Stacks credentials
    ```
 
-2. **Deploy to Morph Holesky**
+2. **Deploy to Stacks Testnet**
    ```bash
-   npm run deploy:morph
+   npm run deploy:stacks
    ```
 
 3. **Verify contracts (optional)**
    ```bash
-   npm run verify <FACTORY_ADDRESS>
+   npm run verify <CONTRACT_ADDRESS>
    ```
 
 ### Frontend Setup
@@ -125,65 +126,65 @@ KindNest embodies four core personality pillars that guide every design decision
 4. **Open browser**
    Navigate to `http://localhost:3000`
 
-## 🌱 How to Use KindNest
+## ⭕ How to Use CircleShare
 
-### 1. **Connect Your Heart** 💝
-- Open KindNest in your browser
-- Click the beautiful emerald "Connect Wallet" button
-- Ensure you're on Morph Holesky Testnet (Chain ID: 2810)
-- *Your digital wallet is now ready to spread kindness*
+### 1. **Connect Your Wallet** 💜
+- Open CircleShare in your browser
+- Click "Connect Wallet" to connect your Stacks wallet
+- Ensure you're on Stacks Testnet
+- *Your wallet is now ready to start sharing in circles*
 
-### 2. **Create Your Nest** 🏡
-- Click "Create Your Nest" to start something beautiful
-- Give your nest a warm name like "Family Support Circle" or "Friend's Care Fund"
-- Choose how others will see you (your caring nickname)
-- Confirm with love ✨
+### 2. **Create Your Circle** ⭕
+- Click "Create Your Circle" to start a circle of sharing
+- Give your circle a meaningful name like "Family Circle" or "Community Share"
+- Choose how others will see you (your nickname in this circle)
+- Confirm the transaction ✨
 
-### 3. **Invite Someone** 🤗
-- Open your cozy nest
-- Click "Invite Someone" to grow your circle of care  
-- Enter their wallet address and a loving nickname
-- *Only nest creators can invite new members - keeping things safe and intimate*
+### 3. **Invite to Circle** 🤗
+- Open your circle
+- Click "Invite to Circle" to add members
+- Enter their Stacks address and a nickname
+- *Only circle keepers can invite new members - maintaining circle integrity*
 
-### 4. **Share a Cost** 💚
-- Click "Share a Cost" when support is needed
-- Describe what you're sharing (like "Sarah's recovery fund" or "Dinner for the group")
-- Enter the amount with care and select who should contribute
-- Watch as transparency meets compassion
+### 4. **Share Contribution** 💜
+- Click "Share Contribution" when expenses happen
+- Describe the expense (like "Sarah's Recovery Circle" or "Group Dinner")
+- Enter the amount and select who participated
+- Watch as sharing flows transparently through your circle
 
-### 5. **See How Care Flows** 📊
-- View your nest's caring balance (who's contributed, who needs support)
-- Positive balance = others have supported you 💚
-- Negative balance = time to show some love back 🌟
-- *Every number tells a story of human connection*
+### 5. **See How Sharing Flows** 📊
+- View your circle's share balance (who's contributed, who needs to flow share forward)
+- Positive balance = share flowing to you 💜
+- Negative balance = time to flow share forward ⭕
+- *Every transaction tells a story of circular reciprocity*
 
-### 6. **Contribute Kindly** ✨
-- When it's time to support someone, click on the amount with a heart
-- Send exactly what's needed - no more, no less
-- *Support flows naturally when it feels right*
+### 6. **Flow Share Forward** ✨
+- When it's time to complete the circle, click the amount
+- Send exactly what's needed - fair as a circle
+- *Sharing flows naturally through the circle*
 
 ## 🔧 Configuration
 
 ### Network Configuration
-- **Network**: Morph Holesky Testnet
-- **Chain ID**: 2810
-- **RPC URL**: https://rpc-holesky.morphl2.io
-- **Explorer**: https://explorer-holesky.morphl2.io
-- **Faucet**: https://bridge-holesky.morphl2.io/faucet
+- **Network**: Stacks Testnet
+- **Chain**: Bitcoin Layer 2
+- **RPC URL**: https://api.testnet.hiro.so
+- **Explorer**: https://explorer.hiro.so/?chain=testnet
+- **Faucet**: https://explorer.hiro.so/sandbox/faucet?chain=testnet
 
 ### Environment Variables
 
 #### Contracts (.env)
 ```bash
-PRIVATE_KEY=0x... # Your deployment wallet private key
-MORPH_RPC_URL=https://rpc-holesky.morphl2.io
-ETHERSCAN_API_KEY=abc # For contract verification
+STACKS_PRIVATE_KEY=... # Your deployment wallet private key
+STACKS_NETWORK=testnet
+CONTRACT_ADDRESS=... # Deployed contract address
 ```
 
 #### Frontend (.env.local)
 ```bash
-NEXT_PUBLIC_MORPH_RPC_URL=https://rpc-holesky.morphl2.io
-NEXT_PUBLIC_EXPENSE_FACTORY_ADDRESS=0x... # Deployed factory address
+NEXT_PUBLIC_STACKS_NETWORK=testnet
+NEXT_PUBLIC_CONTRACT_ADDRESS=... # Deployed factory address
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=... # Your WalletConnect project ID
 ```
 
@@ -207,42 +208,43 @@ npm run lint # ESLint
 ## 📂 Project Structure
 
 ```
-kindnest-mvp/
-├── contracts/                 # Smart contracts for trust & transparency
+circleshare/
+├── contracts/                     # Clarity smart contracts for trust & transparency
 │   ├── contracts/
-│   │   ├── GroupTreasury.sol  # Core support & contribution logic
-│   │   └── ExpenseFactory.sol # Nest creation & management
+│   │   ├── groups-treasuri.clar  # Core sharing & contribution logic
+│   │   └── expensess-factori.clar # Circle creation & management
 │   ├── scripts/
-│   │   └── deploy.js          # Blockchain deployment magic
-│   ├── test/                  # Comprehensive security tests
-│   └── hardhat.config.js      # Morph L2 configuration
-├── frontend/                  # KindNest web application
-│   ├── app/                   # Next.js app router (pages & layouts)
-│   │   ├── page.tsx           # Landing page with hero section
-│   │   ├── dashboard/         # Your nests overview
-│   │   ├── groups/[id]/       # Individual nest management
-│   │   ├── about/             # KindNest story & values
-│   │   ├── how-it-works/      # Step-by-step caring guide
-│   │   └── globals.css        # KindNest design system & animations
-│   ├── components/            # Reusable UI components
-│   │   └── ui/                # Button, Input, Card with KindNest styling
-│   ├── lib/                   # Web3 hooks, utils, & contract interactions
-│   └── types/                 # TypeScript definitions
-└── README.md                  # You are here! 🌱
+│   │   └── deploy.js              # Stacks blockchain deployment
+│   ├── test/                      # Comprehensive security tests
+│   └── Clarinet.toml              # Stacks L2 configuration
+├── frontend/                      # CircleShare web application
+│   ├── app/                       # Next.js app router (pages & layouts)
+│   │   ├── page.tsx               # Landing page with hero section
+│   │   ├── dashboard/             # Your circles overview
+│   │   ├── groups/[id]/           # Individual circle management
+│   │   ├── about/                 # CircleShare story & values
+│   │   ├── how-it-works/          # Step-by-step sharing guide
+│   │   └── globals.css            # CircleShare design system & animations
+│   ├── components/                # Reusable UI components
+│   │   └── ui/                    # Button, Input, Card with CircleShare styling
+│   ├── lib/                       # Web3 hooks, utils, & contract interactions
+│   └── types/                     # TypeScript definitions
+└── README.md                      # You are here! ⭕
 ```
 
 ## 🔐 Security Considerations
 
-- Contracts use OpenZeppelin's security modules (ReentrancyGuard, Ownable)
-- Only group creators can add members
-- Debt settlements require exact payment amounts
-- All transactions are transparent on-chain
+- Clarity smart contracts are decidable and safer than Solidity
+- Only circle keepers can add members
+- Share settlements require exact payment amounts
+- All transactions are transparent on Stacks blockchain
+- Secured by Bitcoin's Layer 2
 
 ## 🌐 Deployment
 
 ### Smart Contracts
-Contracts are deployed on Morph Holesky Testnet:
-- Explorer: https://explorer-holesky.morphl2.io
+Contracts are deployed on Stacks Testnet:
+- Explorer: https://explorer.hiro.so/?chain=testnet
 
 ### Frontend
 The frontend can be deployed to any static hosting service:
@@ -270,53 +272,53 @@ This project is licensed under the MIT License.
 
 ## 🏆 Hackathon Submission
 
-This project was built for the **Morph Consumer Buildathon 2025** with a focus on:
-- Consumer-facing blockchain applications
-- Smart contract automation
-- Modern Web3 UX
-- Real-world utility
+This project was built for the **Stacks Vibe Coding Hackathon 2025** with a focus on:
+- Circular reciprocity model for expense sharing
+- Clarity smart contracts on Bitcoin L2
+- Modern Web3 UX with warm, human-centered design
+- Real-world utility with fair-as-a-circle approach
 
 ### Demo Video
 [Link to demo video will be added]
 
 ### Live Demo
-[KindNest](https://kindnest.vercel.app/)
+[CircleShare](https://circleshare.vercel.app/)
 
 ## 📞 Support
 
-- **Morph Documentation**: https://docs.morphl2.io/
-- **X**: [KindNest X](https://x.com/kindnest_xyz)
+- **Stacks Documentation**: https://docs.stacks.co/
+- **Clarity Documentation**: https://docs.stacks.co/clarity/
 - **Issues**: Create an issue in this repository
 
-## 🌱 Growing KindNest
+## ⭕ Growing CircleShare
 
-*The future of caring together:*
+*The future of circular sharing:*
 
 ### 🔮 **Vision for Tomorrow**
-- **Telegram Care Bot**: Get gentle reminders and updates where you already chat
-- **Receipt Wisdom**: AI-powered scanning to make expense tracking effortless  
-- **Global Kindness**: Multi-currency support for worldwide nests of care
-- **Pocket-Sized Care**: Native mobile app for support on-the-go
-- **Optimized Giving**: Gas optimization to keep more value flowing to where it's needed
-- **Caring Insights**: Beautiful analytics that tell stories of human connection
+- **Circle Notifications**: Get updates when sharing flows through your circle
+- **Receipt Intelligence**: AI-powered scanning to make expense tracking effortless
+- **Multi-Currency Circles**: Support for worldwide circles of sharing
+- **Mobile Circles**: Native mobile app for sharing on-the-go
+- **Optimized Flow**: Gas optimization to keep more value flowing where it's needed
+- **Circle Analytics**: Beautiful insights showing how sharing circulates
 
 ### 🤗 **Join Our Community**
-- **Share your story**: How has KindNest helped your community?
-- **Suggest with love**: What would make caring even easier?
-- **Build together**: Developers welcome to help grow our nest
+- **Share your story**: How has CircleShare helped your circle?
+- **Suggest improvements**: What would make circular sharing even better?
+- **Build together**: Developers welcome to help complete the circle
 
 ---
 
-## 💚 **About This Project**
+## 💜 **About This Project**
 
-KindNest was born from a simple belief: **technology should make human connection warmer, not colder.**
+CircleShare was born from the understanding that **sharing works best when it flows in circles, not lines.**
 
-In a world where sharing expenses often creates awkwardness, KindNest transforms financial transparency into an act of care. Every gradient, every animation, every word is chosen to remind us that behind every wallet address is a human heart.
+Traditional apps create linear debts. We saw people struggling with awkward debt conversations, forgotten contributions, and the guilt that "owing" creates between loved ones. CircleShare transforms expense sharing into circles of sharing where support flows continuously.
 
-Built with deep love for the **Morph L2 ecosystem** and a conviction that blockchain's greatest power lies not in its technology, but in its ability to help us trust and support each other.
+Built with conviction for the **Stacks ecosystem** and belief that blockchain's greatest power lies in making peer-to-peer support feel as natural and continuous as sharing with loved ones.
 
-*Together is easier.* 🌱✨
+*Where sharing comes full circle.* ⭕✨
 
 ---
 
-**Made with 💚 by humans who believe in humans, for the Morph L2 ecosystem**
+**Made with 💜 for the Stacks ecosystem - CircleShare: Where sharing flows in circles**
