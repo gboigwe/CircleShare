@@ -53,10 +53,10 @@ export default function About() {
     {
       category: "Blockchain",
       technologies: [
-        "Clarity",
-        "Stacks.js",
-        "Stacks Connect",
-        "Stacks Bitcoin L2",
+        "Solidity",
+        "wagmi",
+        "Viem",
+        "Base L2 (Ethereum)",
         "Smart Contracts"
       ]
     },
@@ -131,7 +131,7 @@ export default function About() {
         <div className={`text-center py-16 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-8 border border-white/20">
             <Trophy className="h-4 w-4 text-yellow-400 mr-2" />
-            <span className="text-white/90 text-sm font-medium">Stacks Vibe Coding Hackathon 2025</span>
+            <span className="text-white/90 text-sm font-medium">Base Hackathon 2025</span>
           </div>
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-black text-white mb-6">
             About CircleShare
@@ -153,9 +153,9 @@ export default function About() {
                   forgotten contributions, and the guilt that &quot;owing&quot; creates between loved ones.
                 </p>
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
-                  Built for the Stacks Vibe Coding Hackathon 2025, CircleShare transforms expense sharing into circles of sharing.
+                  Built for the Base Hackathon 2025, CircleShare transforms expense sharing into circles of sharing.
                   Every contribution, every act of support, every moment of sharing is recorded with the security of
-                  Clarity smart contracts on Bitcoin&apos;s Layer 2 and the warmth of human connection.
+                  Solidity smart contracts on Base L2 (Ethereum Layer 2) and the warmth of human connection.
                 </p>
                 <p className="text-white/80 text-lg leading-relaxed">
                   Our mission: Make expense sharing feel like what it truly is—sharing with each other.
@@ -237,18 +237,18 @@ export default function About() {
         <div className="py-16">
           <div className="bg-gradient-to-r from-yellow-500/20 via-orange-500/20 to-red-500/20 backdrop-blur-lg rounded-3xl p-12 border border-white/10 text-center">
             <Award className="h-20 w-20 text-yellow-400 mx-auto mb-6" />
-            <h2 className="text-4xl font-bold text-white mb-6">Stacks Vibe Coding Hackathon 2025</h2>
+            <h2 className="text-4xl font-bold text-white mb-6">Base Hackathon 2025</h2>
             <p className="text-xl text-white/80 mb-8 max-w-3xl mx-auto">
-              CircleShare showcases how Clarity smart contracts on Bitcoin&apos;s Layer 2 can transform expense sharing into circles of sharing.
-              By leveraging Stacks&apos; security and Bitcoin&apos;s trust, we&apos;re making peer-to-peer support feel as natural and continuous as sharing with loved ones.
+              CircleShare showcases how Solidity smart contracts on Base L2 (Ethereum Layer 2) can transform expense sharing into circles of sharing.
+              By leveraging Base&apos;s speed and Ethereum&apos;s security, we&apos;re making peer-to-peer support feel as natural and continuous as sharing with loved ones.
             </p>
             <div className="grid sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
               <div className="bg-white/10 rounded-2xl p-4">
-                <div className="text-2xl font-bold text-white">Bitcoin</div>
+                <div className="text-2xl font-bold text-white">Ethereum</div>
                 <div className="text-white/70">Layer 2 Security</div>
               </div>
               <div className="bg-white/10 rounded-2xl p-4">
-                <div className="text-2xl font-bold text-white">Clarity</div>
+                <div className="text-2xl font-bold text-white">Solidity</div>
                 <div className="text-white/70">Smart Contracts</div>
               </div>
               <div className="bg-white/10 rounded-2xl p-4">
@@ -267,7 +267,7 @@ export default function About() {
             <p className="text-xl text-white/80 leading-relaxed mb-8">
               We believe the future of expense sharing is circular, transparent, and accessible to everyone.
               CircleShare is just the beginning. We&apos;re building towards a world where sharing flows as easily
-              as caring, where trust is built into every interaction via Clarity contracts, and where support knows no boundaries.
+              as caring, where trust is built into every interaction via smart contracts, and where support knows no boundaries.
             </p>
             <div className="grid sm:grid-cols-3 gap-6 text-center">
               <div>
@@ -293,7 +293,7 @@ export default function About() {
         <div className="py-16 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Start Your Circle of Share</h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Experience circular sharing today. Connect your Stacks wallet and discover how sharing comes full circle.
+            Experience circular sharing today. Connect your Web3 wallet and discover how sharing comes full circle.
           </p>
           <div className="bg-gradient-to-r from-teal-500 to-purple-600 p-1 rounded-2xl inline-block">
             <div className="bg-black/50 backdrop-blur-sm rounded-xl px-8 py-4">

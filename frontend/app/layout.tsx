@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'CircleShare - Sharing flows in circles',
-  description: 'Transform expense sharing into circles of sharing. Built on Stacks Bitcoin L2, CircleShare enables circles where support flows continuously—everyone gives when they can, everyone receives when they need.',
+  description: 'Transform expense sharing into circles of sharing. Built on Base L2 (Ethereum Layer 2), CircleShare enables circles where support flows continuously—everyone gives when they can, everyone receives when they need.',
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },

@@ -67,7 +67,7 @@ export default function Home() {
     {
       icon: Timer,
       title: "Always There",
-      description: "Support that doesn't forget. Sharing recorded permanently on Bitcoin L2.",
+      description: "Support that doesn't forget. Sharing recorded permanently on Base L2.",
       color: "from-cyan-500 to-blue-500"
     }
   ];
@@ -168,7 +168,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-4xl font-bold text-white mb-2">Low</div>
-              <div className="text-white/60">Stacks L2 Fees</div>
+              <div className="text-white/60">Base L2 Fees</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-white mb-2">∞</div>
@@ -176,7 +176,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-white mb-2 gentle-bounce">⚡</div>
-              <div className="text-white/60">Bitcoin Security</div>
+              <div className="text-white/60">Ethereum Security</div>
             </div>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function Home() {
               {
                 step: "01",
                 title: "Connect Wallet",
-                description: "Connect your Stacks wallet to begin your journey of sharing",
+                description: "Connect your Web3 wallet to begin your journey of sharing",
                 icon: Wallet,
                 color: "from-blue-500 to-indigo-500"
               },
@@ -302,11 +302,11 @@ export default function Home() {
               <div className="text-white/60 text-sm">
                 <div className="flex items-center space-x-2 mb-1">
                   <CheckCircle className="h-4 w-4 text-green-400" />
-                  <span>Stacks Bitcoin L2</span>
+                  <span>Base L2 (Ethereum)</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-4 w-4 text-green-400" />
-                  <span>Secured by Bitcoin</span>
+                  <span>Secured by Ethereum</span>
                 </div>
               </div>
             </div>
@@ -323,7 +323,7 @@ export default function Home() {
               <span className="text-white font-semibold">CircleShare</span>
             </div>
             <div className="text-white/60 text-center md:text-right">
-              <p className="mb-1">Built for Stacks Vibe Coding Hackathon 2025</p>
+              <p className="mb-1">Built for Base Hackathon 2025</p>
               <p className="text-sm">CircleShare: Where sharing flows in circles</p>
             </div>
           </div>
