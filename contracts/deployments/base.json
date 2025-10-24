@@ -1,0 +1,16 @@
+{
+  "network": "base",
+  "chainId": 8453,
+  "contracts": {
+    "ExpenseFactory": {
+      "address": "0xA3B8AF2c179d36ce709a08aF9AAB146065977B9B",
+      "txHash": "0xff4b2c3602782063c86696589b68420c88744cb9121cd2e0b9c1924154d7704b",
+      "blockNumber": 37275285
+    }
+  },
+  "deployer": "0x4F27d4C921c90d0AA2523741bCb17B55F249cD52",
+  "deployedAt": "2025-10-24T21:05:21.949Z",
+  "gasUsed": {
+    "ExpenseFactory": "4798295"
+  }
+}
