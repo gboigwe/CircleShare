@@ -1,4 +1,4 @@
-# ⭕ CircleShare - Sharing flows in circles
+# ⭕ CircleShare - Sharing flows in circles 
 
 *Fair as a circle. Warm as sharing.* CircleShare transforms expense sharing into circles of sharing where support flows continuously.
 
